@@ -3,6 +3,7 @@ package mars.download;
 import mars.utils.HttpDownload;
 import android.os.Bundle;
 import android.R.integer;
+import android.R.string;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Download extends Activity {
+	private string haiyun;
 	private Button downMp3, downText;
 	int result;
 	HttpDownload httpDownload;
